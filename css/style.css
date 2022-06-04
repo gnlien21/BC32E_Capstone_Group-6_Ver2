@@ -14,6 +14,8 @@ h6 {
     font-family: 'Volkhov', serif;
 }
 
+
+
 /* brandlogo */
 #brand-logo navbar-brand {
     position: relative;
@@ -188,6 +190,7 @@ header .navbar {
 .banner-left-content p {
     font-size: 20px;
     color: grey;
+    font-weight: 400;
 }
 
 .btn {
@@ -295,6 +298,7 @@ header .navbar {
 
 .features .row .left p {
     color: grey;
+    font-weight: 400;
 }
 
 .features .row .right {
@@ -413,6 +417,7 @@ header .navbar {
 .exp-left p {
     color: grey;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .exp-left .grid-item .fa {
@@ -428,6 +433,7 @@ header .navbar {
 .exp-left .grid-item p {
     color: grey;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .exp-right {
@@ -505,6 +511,7 @@ header .navbar {
 .product .product-info p {
     color: grey;
     margin-top: 10px;
+    font-weight: 400;
 }
 
 /* 7. GALLERY */
