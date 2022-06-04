@@ -23,6 +23,7 @@ h6 {
 
 #brand-logo span {
     font-family: 'Volkhov', serif;
+
     font-size: 32px;
     color: #fb811e;
 }
@@ -67,7 +68,6 @@ header .navbar {
     box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
     height: 70px;
 }
-
 
 .navbar input {
     background: rgb(250, 250, 250) url(../img/search.png) no-repeat 10px center;
@@ -157,6 +157,8 @@ header .navbar {
     color: #fb811e;
 }
 
+
+
 /* 2. BANNER */
 /* Banner Left */
 .banner .row{
@@ -172,7 +174,7 @@ header .navbar {
 
 
 .banner-left-content .farm-text {
-    color: #eee;
+    color: #f4f4f4;
     font-size: 100px;
     font-weight: bold;
     margin-left: -0.5em;
@@ -188,6 +190,7 @@ header .navbar {
 .banner-left-content p {
     font-size: 20px;
     color: grey;
+    font-weight: 400;
 }
 
 .btn {
@@ -264,6 +267,25 @@ header .navbar {
     background-color: #fb811e;
 }
 
+@media screen and (max-width: 765px){
+    .banner .row {
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .banner .banner-left{
+        position:absolute;
+        left: 3em;
+        background-color: #fff;
+        padding: 3.5em;
+        margin: auto;
+
+    }
+    
+}
 /* features */
 .container {
     max-width: 1200px;
@@ -294,7 +316,9 @@ header .navbar {
 }
 
 .features .row .left p {
+    font-size: 20px;
     color: grey;
+    font-weight: 400;
 }
 
 .features .row .right {
@@ -413,6 +437,7 @@ header .navbar {
 .exp-left p {
     color: grey;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .exp-left .grid-item .fa {
@@ -427,6 +452,7 @@ header .navbar {
 
 .exp-left .grid-item p {
     color: grey;
+    font-weight: 400;
     font-size: 20px;
 }
 
@@ -505,6 +531,7 @@ header .navbar {
 .product .product-info p {
     color: grey;
     margin-top: 10px;
+    font-weight: 400;
 }
 
 /* 7. GALLERY */
