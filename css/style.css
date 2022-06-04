@@ -14,6 +14,8 @@ h6 {
     font-family: 'Volkhov', serif;
 }
 
+
+
 /* brandlogo */
 #brand-logo navbar-brand {
     position: relative;
@@ -454,6 +456,7 @@ header .navbar {
     color: grey;
     font-weight: 400;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .exp-right {
