@@ -5,10 +5,6 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: #f4f4f4;
-}
-
 h1,
 h2,
 h3,
@@ -282,7 +278,7 @@ header .navbar {
 }
 
 .features .row .left p {
-    color: grey;
+    font-weight: 400;
 }
 
 .features .row .right {
@@ -303,12 +299,12 @@ header .navbar {
     border-radius: 30px;
     background-color: #fff;
     overflow: hidden;
-    box-shadow: 10px 10px 10px 10px #efefef;
+    box-shadow: 10px 10px 10px 10px #f9f9f9;
 }
 
 
 .features .row .right .item:hover {
-    box-shadow: none;
+    box-shadow: 10px 10px 10px 10px #efefef;
     transition: all 0.5s;
 }
 
@@ -369,6 +365,7 @@ header .navbar {
 .services .title .row .section_heading p {
     font-size: 20px;
     color: #ffffff;
+    font-weight: 400;
 }
 
 .services .row h4 {
@@ -434,6 +431,7 @@ header .navbar {
     font-size: 20px;
     color: gray;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 
 
@@ -463,6 +461,7 @@ header .navbar {
 .exp-left p {
     color: grey;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .exp-left .grid-item .fa {
@@ -633,6 +632,7 @@ p {
 
 .carousel-item .carousel_text p {
     font-size: 25px;
+    font-weight: 400;
 }
 
 .carousel-item .carousel_text h5 {
@@ -675,12 +675,15 @@ footer {
 .footer__content .footer_item {
     width: 33.33%;
     height: auto;
+    margin-left: 30px;
 }
 
 
 .footer__content p {
     color: grey;
     margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .footer__content .footer_item_logo {
@@ -784,4 +787,13 @@ footer {
 .footer__icon span:hover {
     color: #fb8532;
     transition: all 0.5s;
+}
+
+#text {
+    color: #009f4d;
+}
+
+#text:hover {
+    color: #fb811e;
+    transition: all 1s;
 }
