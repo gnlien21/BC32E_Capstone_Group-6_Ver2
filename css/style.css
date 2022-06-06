@@ -412,6 +412,7 @@ header .navbar {
 .services .title .row .section_heading p {
     font-size: 20px;
     color: #ffffff;
+    font-weight: 400;
 }
 
 .services .row h4 {
@@ -477,6 +478,7 @@ header .navbar {
     font-size: 20px;
     color: gray;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 
 
@@ -761,6 +763,7 @@ p {
 
 .carousel-item .carousel_text p {
     font-size: 25px;
+    font-weight: 400;
 }
 
 .carousel-item .carousel_text h5 {
@@ -809,6 +812,7 @@ footer {
 .footer__content p {
     color: grey;
     margin-top: 20px;
+    font-weight: 400;
 }
 
 .footer__content .footer_item_logo {
