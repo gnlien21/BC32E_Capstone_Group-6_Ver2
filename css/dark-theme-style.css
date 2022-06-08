@@ -1,0 +1,298 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Volkhov', serif;
+}
+
+
+
+/* brandlogo */
+#brand-logo navbar-brand {
+    position: relative;
+    font-size: 32px;
+    padding: 0px;
+}
+
+#brand-logo span {
+    font-family: 'Volkhov', serif;
+
+    font-size: 32px;
+    color: #fb811e;
+}
+
+#brand-logo i {
+    position: absolute;
+    top: 8px;
+    left: 70px;
+    font-size: 20px;
+    color: #fb811e;
+}
+
+#brand-logo .navbar-brand:hover span,
+#brand-logo .navbar-brand:hover i {
+    color: #000;
+    transition: all 0.5s;
+}
+
+
+/* 1. HEADER */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 100%;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-fixed {
+    padding: 0px;
+    border-bottom: none;
+    z-index: 99 !important;
+    background-color: #222222;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
+    height: 70px;
+}
+
+.navbar input {
+    background: rgb(250, 250, 250) url(../img/search.png) no-repeat 10px center;
+    border: solid 1px #eee;
+    padding: 0 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10em;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.navbar input:focus {
+    width: 200px;
+    padding-left: 32px;
+    color: #fff;
+    background-color: #222222;
+    cursor: auto;
+    padding-right: 15px;
+}
+
+.navbar ul {
+    align-items: center;
+}
+
+.navbar li.nav-item i {
+    font-size: 28px;
+    color: #222222;
+}
+
+.nav-fixed .navbar li.nav-item i{
+    color: #222222;
+}
+.nav-fixed .navbar .nav-link span{
+    color: #000;
+}
+
+
+.navbar li.nav-item i:hover {
+    color: #fb811e;
+}
+
+.navbar .dropdown-toggle::after {
+    display: none;
+}
+
+.navbar .dropdown span {
+    font-size: 28px;
+}
+
+.navbar .nav-link span {
+    color: #fff;
+}
+
+.navbar .dropdown-menu {
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 20px 62px rgb(4 20 69 / 10%);
+    background-color: #000;
+    width: 14em;
+
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    display: block;
+    padding: 7px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dropdown-item {
+    background-color: transparent;
+
+}
+
+.dropdown-item-active {
+    color: #fb811e;
+    font-weight: 600;
+    background-color: transparent;
+
+}
+
+.dropdown-item:hover {
+    background-color: transparent;
+    color: #fb811e;
+}
+
+
+
+/* 2. BANNER */
+/* Banner Left */
+.banner .row{
+    position: relative;
+    background-color: #222222;
+}
+.banner-left {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10em;
+    z-index: 1;
+}
+
+
+.banner-left-content .farm-text {
+    color: #f4f4f4;
+    font-size: 100px;
+    font-weight: bold;
+    margin-left: -0.5em;
+    color: #000;
+}
+
+.banner-left-content h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-top: -1.5em;
+    color: #fff;
+}
+
+.banner-left-content p {
+    font-size: 20px;
+    color: grey;
+    font-weight: 400;
+}
+
+.btn {
+    background-color: #fb811e;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #009f4d;
+    color: #fff;
+    transition: all 1s;
+}
+
+/* Banner Right */
+
+.banner-right {
+    margin-left: auto;
+}
+
+.banner-right .mySlides {
+    position: relative;
+    z-index: 0;
+}
+
+.banner-right .mySlides .numbertext {
+    position: absolute;
+    bottom: 70px;
+    right: 10px;
+    color: white;
+    font-size: 24px;
+}
+
+.banner-right .mySlides .text {
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.banner-right .mySlides img {
+    border-radius: 0 0 0 30px;
+    height: 100vh;
+}
+
+.slideshow-container {
+    position: relative;
+}
+
+.slideshow-container .indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dot {
+
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.banner .active,
+.dot:hover {
+    background-color: #fb811e;
+}
+
+@media screen and (max-width: 765px){
+    .banner .row {
+        position: relative;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .banner .banner-left{
+        position:absolute;
+        left: 3em;
+        background-color: #fff;
+        padding: 3.5em;
+        margin: auto;
+
+    }
+
+    .banner .banner-left h2{
+        font-size: 32px;
+    }
+    
+}
