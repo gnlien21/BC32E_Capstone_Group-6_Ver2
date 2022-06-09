@@ -98,8 +98,6 @@ header .navbar {
 .navbar li.nav-item i {
     font-size: 28px;
     color: #fff;
-    width: 30px;
-    height: 30px;
 }
 
 .nav-fixed .navbar li.nav-item i{
@@ -156,10 +154,8 @@ header .navbar {
     color:#fb811e;
     
 }
-.dropdown-item:hover{
+.navbar .dropdown-menu .dropdown-item:hover {
     color:#fb811e;
-    text-decoration: none;
-    background-color: transparent;
 }
 
 
